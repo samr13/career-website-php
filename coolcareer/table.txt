@@ -1,0 +1,23 @@
+1) register
+username-varchar(50)
+password-varchar(50)
+firstname-"
+secondname-"
+DOB-date
+qualification-varchar(30)
+
+
+
+2) forum
+topicid-timestamp-CURRENT_TIMESTAMP
+topic_name-varchar(50)
+author-varchar(50)
+numofpost-int(3)
+lastpost-time()
+
+3)post
+topicid-timestamp
+subject-varchar(50)
+content-varchar(1024)
+author-varchar(30)
+time-time
